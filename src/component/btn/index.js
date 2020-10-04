@@ -1,7 +1,5 @@
-export const makeBtn = ({
-  title, klass, color, size,
-}) => `
-    <button class="btn">
-    ${title}
+export const makeBtn = ({ title, klass, color, size }) => `
+    <button class="btn ${klass}">
+        ${title}
     </button>
 `;
