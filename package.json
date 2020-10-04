@@ -33,6 +33,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.11.5",
     "fxdom": "^0.5.2",
     "fxjs": "^0.16.3"
   }
