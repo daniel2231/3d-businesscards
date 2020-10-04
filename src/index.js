@@ -1,4 +1,8 @@
-const a = 1;
+import formPage from './page/formPage';
 
-const div = document.querySelector('.container');
-div.innerText = 'Webpack loaded!!';
+const root = document.querySelector('.root-container');
+
+if (true) {
+  root.innerHTML = formPage.template;
+  formPage.script();
+}
